@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int c;
+	char c;
 
-	for (c = 48; c < 'g' ; c++)
+	for (c = '0'; c < 'g' ; c++)
 	{
 		putchar(c);
-    if (c == 57)
-    c=='a'-1
+        if(c=='9')
+            c='a'-1;
 	}
 	putchar('\n');
 	return (0);
