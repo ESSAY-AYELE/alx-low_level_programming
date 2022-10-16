@@ -11,8 +11,8 @@ int main(void)
 	for (c = 'a'; c < 'z' + 1 ; c++)
 	{
 		putchar(c);
-    if (c == 'd' || c=='p')
-        c++;
+		if (c=='d' || c=='p')
+			c++;
 	}
 	putchar('\n');
 	return (0);
