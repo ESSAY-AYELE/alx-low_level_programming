@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(c);
 		if (c == 'z')
-           		c = 'A' - 1;
+			c = 'A' - 1;
 	}
 	putchar('\n');
 	return (0);
