@@ -11,18 +11,18 @@ int main(void)
 	s='0';
 	for (f = 48; f < 57 ; f++)
 	{
-		s=f+1;
+		s = f + 1;
 		while (s < 57)
 		{
-			t=s+1;
-			while(t<58)
+			t = s + 1;
+			while(t < 58)
 			{
 				
             			putchar(f);
             			putchar(s);
             			putchar(t);
             			t++;
-            			if(f!=55)
+            			if(f != 55)
 				{
             				putchar(',');
             				putchar(' ');
