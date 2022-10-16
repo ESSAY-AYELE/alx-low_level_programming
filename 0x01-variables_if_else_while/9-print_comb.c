@@ -11,7 +11,7 @@ int main(void)
 	for (c = 48; c < 58 ; c++)
 	{
 		putchar(c);
-		if (c!='9')
+		if (c != '9')
 		{
 		putchar(',');
 		putchar(' ');
