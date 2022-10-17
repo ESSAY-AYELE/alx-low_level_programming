@@ -13,5 +13,6 @@ int main(void)
     j=strlen(word);
     for(i = 0; i < j; i++)
         putchar(word[i]);
+    putchar('\n');
     return (0);
-  }
+}
