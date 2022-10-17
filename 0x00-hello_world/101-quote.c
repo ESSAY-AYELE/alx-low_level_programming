@@ -20,5 +20,4 @@ int main(void)
 		putchar(word[i]);
 	putchar('\n');
 	return (1);
-
 }
