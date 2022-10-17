@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * main -Entry poit
  *
@@ -6,8 +7,9 @@
  */
 int main(void)
 {
+    int i;
     char word[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-    for(int i = 0;i < strlen(word); i++)
+    for(i = 0; i < strlen(word); i++)
         putchar(word[i]);
     return (0);
   }
