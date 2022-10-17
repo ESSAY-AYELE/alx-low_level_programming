@@ -7,9 +7,11 @@
  */
 int main(void)
 {
-    int i;
+    int i, j;
+    
+    j=strlen(word)
     char word[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-    for(i = 0; i < strlen(word); i++)
+    for(i = 0; i < j; i++)
         putchar(word[i]);
     return (0);
   }
