@@ -6,22 +6,22 @@
  */
 int main(void)
 {
-	char f, s, t, l;
+	int f, s, t, l;
 
-	for (f = '0'; f < '9' + 1 ; f++)
+	for (f = 48; f < 58 ; f++)
 	{
-		for (s = '0'; s < '9' + 1 ; s++)
+		for (s = 48; s < 58 ; s++)
 		{
-			for (t = f; t < '9' + 1 ; t++)
+			for (t = f; t < 58 ; t++)
 			{
-				for (l = s + 1; l < '9' + 1 ; l++)
+				for (l = s + 1; l < 58 ; l++)
 				{
 					putchar(f);
 					putchar(s);
 					putchar(' ');
 					putchar(t);
 					putchar(l);
-					if (!(f == '9' && s == '8' && t == '9' && l == '9'))
+					if (!(f == 57 && s == 56 && t == 57 && l == 57))
 					{
 						putchar(',');
 						putchar(' ');
