@@ -75,7 +75,7 @@ void greater(int n)
   
 void negative(int n)
 {
-  int i, f, s;
+  int i, f, s, t;
   
  for (i = n; i < 1 ; i++)
  {
@@ -94,7 +94,8 @@ void negative(int n)
      _putchar('-');
      _putchar('0'-i);
    }
-   else{
+   else
+   {
       t = i % 10;
        s = (i-t)/10;
         f = (i-s-t)/100;
@@ -102,7 +103,8 @@ void negative(int n)
       _putchar('0' + s);
        _putchar('0' + t);
          _putchar(',');
-     _putchar(' ');}
+     _putchar(' ');
+   }
  }
   
       less(0);
