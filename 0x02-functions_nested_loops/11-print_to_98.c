@@ -42,7 +42,7 @@ void greater(int n)
     }
 }
     
-    void less(n)
+    void less(int n)
     {
       int i, f, s;
       
@@ -67,6 +67,8 @@ void greater(int n)
   
 void negtive (int n)
 {
+  int i, f, s;
+  
  for (i = n; i < 1 ; i--)
  {
     if (i <= -10)
