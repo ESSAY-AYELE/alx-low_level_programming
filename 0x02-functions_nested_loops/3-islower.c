@@ -1,3 +1,4 @@
+#include <ctype.h>
 /**
  *_islower - check wethere lower or not.
  *
