@@ -31,11 +31,11 @@ void greater(int n)
       else
       {
         t = i % 10;
-       s = (i-t)/10;
+       s = ((i%100)-t)/10;
         f = (i-s-t)/100;
         _putchar('0' + f);
-      _putchar('0' + s);
-       _putchar('0' + t);
+        _putchar('0' + s);
+         _putchar('0' + t);
          _putchar(',');
      _putchar(' ');
      
@@ -77,7 +77,7 @@ void negative(int n)
 {
   int i, f, s, t;
   
- for (i = n; i < 1 ; i++)
+ for (i = n; i < 0 ; i++)
  {
     if (i <= -10)
     {
@@ -93,11 +93,13 @@ void negative(int n)
    {
      _putchar('-');
      _putchar('0'-i);
+     _putchar(',');
+     _putchar(' ');
    }
    else
    {
       t = i % 10;
-       s = (i-t)/10;
+       s = ((i%100)-t)/10;
         f = (i-s-t)/100;
         _putchar('0' + f);
       _putchar('0' + s);
@@ -109,10 +111,3 @@ void negative(int n)
   
       less(0);
 }
-     
-       
-        
- 
-    
-
-  
