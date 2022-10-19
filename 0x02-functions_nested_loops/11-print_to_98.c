@@ -3,10 +3,11 @@ void print_to_98(int n)
 {
   if (n >= 98)
    greater(n);
-  else if (n > 0 && n < 98)
+  else if (n >= 0 && n < 98)
     less(n);
   else
     negative(n);
+  _putchar('\n');
 }
 void greater(int n)
 {
@@ -31,10 +32,12 @@ void greater(int n)
       {
         t = i % 10;
        s = (i-t)/10;
-        f = (i-s-t)/10;
+        f = (i-s-t)/100;
         _putchar('0' + f);
       _putchar('0' + s);
        _putchar('0' + t);
+         _putchar(',');
+     _putchar(' ');
      
         
       }
@@ -60,9 +63,14 @@ void greater(int n)
      _putchar(' ');
       }
       }
-        else
+        else{
           _putchar('0' + i);
+          _putchar(',');
+     _putchar(' ');
+        }
+        
       }
+      
     }
   
 void negative(int n)
@@ -81,12 +89,22 @@ void negative(int n)
       _putchar(',');
      _putchar(' ');
     }
-   else
+   else if (i >-10)
    {
      _putchar('-');
      _putchar('0'-i);
    }
+   else{
+      t = i % 10;
+       s = (i-t)/10;
+        f = (i-s-t)/100;
+        _putchar('0' + f);
+      _putchar('0' + s);
+       _putchar('0' + t);
+         _putchar(',');
+     _putchar(' ');}
  }
+  
       less(0);
 }
      
