@@ -8,8 +8,10 @@ void print_to_98(int n)
   else
     negative(n);
 }
-void greater(int n){
+void greater(int n)
+{
   int i, f, s, t;
+  
   for (i = n; i > 97; i--)
   {
     if (i < 100)
@@ -38,6 +40,7 @@ void greater(int n){
       }
       
     }
+}
     
     void less(n)
     {
