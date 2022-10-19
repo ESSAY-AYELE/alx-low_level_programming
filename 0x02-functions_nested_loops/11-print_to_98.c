@@ -98,9 +98,11 @@ void negative(int n)
    }
    else
    {
+      
       t = i % 10;
        s = ((i%100)-t)/10;
         f = (i-s-t)/100;
+     _putchar('-');
         _putchar('0' - f);
       _putchar('0' - s);
        _putchar('0' - t);
