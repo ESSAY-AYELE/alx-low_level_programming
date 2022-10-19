@@ -65,11 +65,11 @@ void greater(int n)
       }
     }
   
-void negtive (int n)
+void negative(int n)
 {
   int i, f, s;
   
- for (i = n; i < 1 ; i--)
+ for (i = n; i < 1 ; i++)
  {
     if (i <= -10)
     {
