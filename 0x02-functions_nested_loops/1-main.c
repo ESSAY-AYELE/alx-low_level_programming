@@ -1,3 +1,4 @@
+#include "1-main.h"
 /**
  * main - check the code
  *
