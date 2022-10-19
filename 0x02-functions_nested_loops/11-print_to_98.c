@@ -79,7 +79,7 @@ void negative(int n)
   
  for (i = n; i < 0 ; i++)
  {
-    if (i <= -10)
+    if (i <= -10 && i > -100)
     {
       f = (i-(i%10)) / 10;
       s = i % 10;
