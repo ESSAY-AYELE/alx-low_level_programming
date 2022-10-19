@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-int print_sign(int n)
+int _abs(int n);
 {
   return abs(n);
   }
