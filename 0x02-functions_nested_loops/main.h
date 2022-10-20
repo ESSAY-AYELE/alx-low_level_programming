@@ -13,3 +13,4 @@ void print_to_98(int n);
 void less(int);
 void greater(int);
 void negative(int);
+void print_times_table(int n);
