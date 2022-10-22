@@ -2,6 +2,8 @@
 
 #define HEADERFILE_H
 
+int _putchar(int);
+
 int _isupper(int);
 
 void print_line(int n);
