@@ -9,7 +9,7 @@ void puts2(char *str)
 	int i, len;
 
 	len = strlen(str);
-	for (i = 0; i < len; i++ ++)
+	for (i = 0; i < len; i += 2)
 		printf("%c", str[i]);
 }
 
