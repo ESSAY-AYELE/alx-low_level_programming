@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 #include <string.h>
 /**
  * puts2 - prints half string
