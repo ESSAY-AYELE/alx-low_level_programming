@@ -1,0 +1,17 @@
+#include <stdio.h>
+/**
+ * print_array - prints arrary
+ * @a: the array to be printed
+ * @n: lenght of a
+ *
+ */
+void print_array(int *a, int n)
+{
+	for (int i = 0; i < n; i++)
+	{
+		if (i == 0)
+			printf("%d\n", a[i]);
+		else
+			printf(", %d\n", a[i]);
+	}
+}
