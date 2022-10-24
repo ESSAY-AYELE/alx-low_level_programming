@@ -1,4 +1,4 @@
-/*
+/**
  * swap_int - swaps two numbes
  * @a: first number to be swaped
  * @b: second number to beswaped
