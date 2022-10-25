@@ -1,4 +1,4 @@
-#include <srdlib.h>
+#include <stdlib.h>
 /**
  * _atoi - change string to int
  * @s: the string
