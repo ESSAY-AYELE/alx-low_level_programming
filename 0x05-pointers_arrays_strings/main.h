@@ -23,4 +23,6 @@ void rev_string(char *s);
 
 void swap_int(int *a, int *b);
 
+int _atoi(char *s);
+
 #endif
