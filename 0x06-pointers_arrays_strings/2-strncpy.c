@@ -6,7 +6,7 @@
  * @n: the number of bytes
  * returns: ponter to src
  */
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
 	return (strncpy(dest, src, n));
 }
