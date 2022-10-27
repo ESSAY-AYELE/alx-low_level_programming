@@ -8,5 +8,5 @@
  */
 int _strcmp(char *dest, char *src)
 {
-	return (strncmp(dest, src));
+	return (strcmp(dest, src));
 }
