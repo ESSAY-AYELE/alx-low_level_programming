@@ -4,7 +4,7 @@
  * @str: the string
  * Return: the result
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int i, len;
 
