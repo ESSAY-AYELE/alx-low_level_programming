@@ -1,12 +1,12 @@
 #include <string.h>
 /**
- * _strncat - concatenates to strings
+ * _strcmp - concatenates to strings
  * @dest: the fitst string
  * @src: the second string
  * @n: the number of bytes
  * Return: ponter to src
  */
-char *_strncat(char *dest, char *src, int n)
+int _strcmp(char *dest, char *src)
 {
-	return (strncat(dest, src, n));
+	return (strncmp(dest, src));
 }

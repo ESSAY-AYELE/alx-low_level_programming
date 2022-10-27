@@ -1,10 +1,10 @@
 #include <string.h>
 /**
- * _strcpy - concatenates to strings
+ * _strncpy - concatenates to strings
  * @dest: the fitst string
  * @src: the second string
  * @n: the number of bytes
- * Returns: ponter to src
+ * Return: ponter to src
  */
 char *_strncpy(char *dest, char *src, int n)
 {
