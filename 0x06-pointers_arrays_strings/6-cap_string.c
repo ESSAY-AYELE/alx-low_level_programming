@@ -8,7 +8,7 @@
 char *cap_string(char *str)
 {
 	int i, len, j, len2;
-	char c[] =" .,{}()!?;\t\n\""
+	char c[] =" .,{}()!?;\t\n\"";
 
 	len = strlen(str);
 	len2 = strlen(c);
