@@ -8,7 +8,7 @@ int main(void)
 {
 	int i = 0;
 	int j = 1;
-	int num, k;
+	long long int num, k;
 
 	for (k = 0; k < 50; k++)
 	{
