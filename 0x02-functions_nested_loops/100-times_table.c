@@ -14,7 +14,7 @@ void print_times_table(int n)
 		{
 			pro = i * j;
 			lastDigit = pro % 10;
-			firstDigit = (pro - lastDigit) / 10;
+			firstDigit = ((pro - lastDigit) % 10) / 10;
 			secondDigit = (pro - lastDigit - firstDigit) / 100;
 			if ((pro < 10) && (j != 0))
 			{
