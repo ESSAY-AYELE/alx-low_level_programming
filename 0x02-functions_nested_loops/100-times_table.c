@@ -27,7 +27,7 @@ void print_times_table(int n)
 			}
 			else if (pro >= 100)
 			{
-				_puchar('0' + secondDigit);
+				_putchar('0' + secondDigit);
 				_putchar('0' + firstDigit);
 			_putchar('0' + lastDigit);
 			if  (j != 9)
