@@ -16,7 +16,7 @@ int main(void)
 		i = j;
 		j = num;
 		printf("%lu", num);
-		if (k < 50)
+		if (k < 49)
 			printf(", ");
 	}
 	return (0);
