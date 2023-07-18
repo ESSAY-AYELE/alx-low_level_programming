@@ -14,9 +14,9 @@ void times_table(void)
 			pro = i * j;
 			lastDigit = pro % 10;
 			firstDigit = (pro - lastDigit) / 10;
-			if (pro >= 10)
+			if (pro > 10)
 				_putchar('0' + firstDigit);
-			else if (pro > 10)
+			else
 				_putchar(' ');
 			_putchar('0' + lastDigit);
 			if  (j != 9)
