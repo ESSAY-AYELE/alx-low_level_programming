@@ -19,5 +19,6 @@ int main(void)
 		if (k < 49)
 			printf(", ");
 	}
+	printf("\n");
 	return (0);
 }
