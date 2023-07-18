@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	int i = 0;
-	int j = 1;
+	unsigned int i = 0;
+	unsigned int j = 1;
 	unsigned int num, k;
 
 	for (k = 0; k < 50; k++)
