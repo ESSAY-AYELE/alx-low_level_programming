@@ -15,7 +15,7 @@ int main(void)
 		num = i + j;
 		i = j;
 		j = num;
-		printf("%ul", num);
+		printf("%lu", num);
 		if (k != 50)
 			printf(", ");
 	}
