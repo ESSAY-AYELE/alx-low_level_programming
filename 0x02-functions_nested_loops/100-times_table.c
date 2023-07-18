@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * times_table - prints time table from 0 to 9
+ * print_times_table - prints time table from 0 to n
+ * @n: the length of the table
  * Return: void
  */
 void print_times_table(int n)
@@ -29,6 +30,7 @@ void print_times_table(int n)
 			{
 				_putchar('0' + secondDigit);
 				_putchar('0' + firstDigit);
+			}
 			_putchar('0' + lastDigit);
 			if  (j != 9)
 			{
