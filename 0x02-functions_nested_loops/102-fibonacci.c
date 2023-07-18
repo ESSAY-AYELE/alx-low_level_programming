@@ -8,14 +8,14 @@ int main(void)
 {
 	int i = 0;
 	int j = 1;
-	long int num, k;
+	unsigned int num, k;
 
 	for (k = 0; k < 50; k++)
 	{
 		num = i + j;
 		i = j;
 		j = num;
-		printf("%ld", num);
+		printf("%u", num);
 		if (k != 50)
 			printf(", ");
 	}
