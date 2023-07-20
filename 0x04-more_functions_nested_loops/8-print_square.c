@@ -1,4 +1,4 @@
-#inlcude "main.h"
+# include "main.h"
 /**
  * print_square - prints square from #
  * @size: the size of square
@@ -16,6 +16,6 @@ void print_square(int size)
 		}
 		_putchar('\n');
 	}
-	if (n <= 0)
+	if (size <= 0)
 		_putchar('\n');
 }
