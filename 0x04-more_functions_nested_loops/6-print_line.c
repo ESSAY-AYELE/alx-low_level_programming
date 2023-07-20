@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print_line - print a line
  * n: number of - is printed
