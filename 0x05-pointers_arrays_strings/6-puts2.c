@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- * _puts2 - prints stiring
+ * puts2 - prints stiring
  * @str: string pointer
  */
 void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; *(str + i) != '\0'; i += 2)
-		_putchar(*(str + i));
+	for (i = 0; *(str + i) != '\0'; i++);
+	for (j = 0; j <= i; j +=2)
+		_putchar(str[j]);
 	_putchar('\n');
 }
