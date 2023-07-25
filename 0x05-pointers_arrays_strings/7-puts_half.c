@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * rev_string - reversers a stirng
- * @s: the string pointer
+ * puts_half - prints a string starting from the half
+ * @str: the string pointer
  */
 void puts_half(char *str)
 {
@@ -10,8 +10,9 @@ void puts_half(char *str)
 
 	for (i = 0; tmp != '\0'; i++)
 		tmp = str[i];
-	i -= 2;
+	i -= 1;
 	k = i / 2;
-	for (j = k; j <= i; j++)
+	for (j = k; j < i; j++)
 		_putchar(str[j]);
+	_putchar('\n');
 }
