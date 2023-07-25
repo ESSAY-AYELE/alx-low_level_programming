@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * print_rev - compute the length of the string
- * @s: the pointer to the stirng
+ * @s: the pointer to the string
  */
 void print_rev(char *s)
-{	
+{
 	int i, j;
 	char tmp;
 
@@ -12,10 +12,9 @@ void print_rev(char *s)
 	{
 		tmp = *(s + i);
 	}
-	s = s + i - 1;
-	for (j = 0; j < i; j++)
+	for (j = 1; j < i; j++)
 	{
-		_putchar(*(s - j));
+		_putchar(*(s +(i - j));
 	}
 	_putchar('\n');
 }
