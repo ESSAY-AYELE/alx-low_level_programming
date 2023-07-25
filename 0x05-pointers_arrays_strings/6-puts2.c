@@ -3,7 +3,7 @@
  * _puts2 - prints stiring
  * @str: string pointer
  */
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int i;
 
