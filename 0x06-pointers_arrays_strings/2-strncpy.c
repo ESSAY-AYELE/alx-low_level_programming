@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _strncpy - used to copy a specified number of characters from one string to another
+ * _strncpy - used to copy a specified number of characters
  * @dest: destination pointer
  * @src: source pointer
  * @n: the number of character to be copied
+ * Return: dest pointer
  */
 char *_strncpy(char *dest, char *src, int n)
 {
