@@ -8,7 +8,7 @@ char *rot13(char *s)
 {
 	int i, num;
 	char c;
-	char s = 'n' - 'a';
+	char d = 'n' - 'a';
 
 	for (i = 0; s[i]; i++)
 	{
@@ -16,7 +16,7 @@ char *rot13(char *s)
 		num = ((c >= 'A' && c <= 'M') || (c >= 'a' && c <= 'm')) * 1 +
 			((c >= 'N' && c <= 'Z') || (c >= 'n' && c <= 'z')) * -1;
 		if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
-			s[i] = s[i] + (num * s);
+			s[i] = s[i] + (num * d);
 	}
 	return (s);
 }
