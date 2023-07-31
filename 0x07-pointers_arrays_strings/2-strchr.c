@@ -16,10 +16,10 @@ char *_strchr(char *s, char c)
 	}
 	while (s[i])
 	{
-		str[j] = s[i];
+		s[j] = s[i];
 		i++;
 		j++;
 	}
 	str[j] = '\0';
-	return (str);
+	return (s);
 }
