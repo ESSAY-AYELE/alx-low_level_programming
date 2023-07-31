@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _strchar - find a char in a string and return string starting from c
- * @s: the stinrg pointer
+ * _strchr - find a char in a string and return string starting from c
+ * @s: the string pointer
  * @c: the character to be found
  * Return: str
  */
