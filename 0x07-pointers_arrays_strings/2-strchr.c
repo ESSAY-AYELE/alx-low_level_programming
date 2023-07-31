@@ -8,7 +8,6 @@
 char *_strchr(char *s, char c)
 {
 	int i = 0, j = 0;
-	char str[100];
 
 	while (s[i] != c && s[i])
 	{
