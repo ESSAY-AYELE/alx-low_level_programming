@@ -19,6 +19,6 @@ char *_strchr(char *s, char c)
 		i++;
 		j++;
 	}
-	str[j] = '\0';
+	s[j] = '\0';
 	return (s);
 }
