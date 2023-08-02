@@ -1,5 +1,6 @@
 #ifndef HEADER
 #define  HEADER
+int prime_or_not(int, int);
 void _puts_recursion(char *s);
 int _putchar(char c);
 void _print_rev_recursion(char *s);
