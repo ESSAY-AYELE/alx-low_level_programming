@@ -22,8 +22,7 @@ int prime_or_not(int n, int i)
 {
 	if (i == 1)
 		return (1);
-	else
-		if (n % i == 0)
-			return (0);
+	if (n % i == 0)
+		return (0);
 	return (prime_or_not(n, --i));
 }
