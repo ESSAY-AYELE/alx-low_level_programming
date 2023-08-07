@@ -23,5 +23,4 @@ int _sqrt(int n, int i)
 		return (-1);
 	i = i + 2;
 	return (_sqrt(n, i));
-	
 }
