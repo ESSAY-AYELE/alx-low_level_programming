@@ -29,7 +29,6 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	for (i = 0; i < ac; i++)
 	{
-		strcpy(result + j, av[i]);
 		j = 0;
 		while (av[i][j])
 		{
