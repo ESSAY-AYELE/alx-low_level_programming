@@ -6,9 +6,9 @@
  */
 void free_grid(int **grid, int height)
 {
-	int i = height - 1;
+	int i;
 
-	for (i = 0; i >= 0; i--)
+	for (i = 0; i  < height; i++)
 		free(grid[i]);
 	free(grid);
-}	
+}
