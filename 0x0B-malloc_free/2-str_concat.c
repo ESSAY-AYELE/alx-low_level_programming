@@ -7,18 +7,18 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int len = 0, i = 0, j =0;
+	int len = 0, i = 0, j = 0;
 	char *s;
 
-	while (s1[len])
+	while (s1[len] && s1)
 		len++;
-	while (s2[i])
+	while (s2[i] && s2)
 	{
 		len++;
 		i++;
 	}
 	i = 0;
-	s = malloc ((len + 1) * sizeof(char));
+	s = malloc((len + 1) * sizeof(char));
 	if (s == NULL)
 		return (NULL);
 	while (s1[i])
