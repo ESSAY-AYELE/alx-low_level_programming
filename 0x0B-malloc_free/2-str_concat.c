@@ -11,7 +11,7 @@ char *str_concat(char *s1, char *s2)
 	char *s;
 
 	if (!( s1 && s2))
-		return ('\0');
+		return ("");
 	while (s1[len] && s1)
 		len++;
 	while (s2[i] && s2)
