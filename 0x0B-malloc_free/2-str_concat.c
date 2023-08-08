@@ -10,6 +10,8 @@ char *str_concat(char *s1, char *s2)
 	int len = 0, i = 0, j = 0;
 	char *s;
 
+	if (!( s1 && s2))
+		return (NULL);
 	while (s1[len] && s1)
 		len++;
 	while (s2[i] && s2)
