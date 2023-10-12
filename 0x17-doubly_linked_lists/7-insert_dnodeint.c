@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * insert_dlistint_dnodeint_at_index - insert node at a given index
+ * insert_dnodeint_at_index - insert node at a given index
  * @h: head of list
  * @idx: the index
  * @n: the data
@@ -18,19 +18,26 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	new->n = n;
 	new->prev = NULL;
 	new->next = NULL;
-	while (tmp != NULL)
+	if (*h == NULL && idx == 0)
 	{
-		if (idx == num)
+		*head = new;
+		return (new);
+	}
+	else
+	{
+		while (tmp != NULL)
 		{
-			new->next = tmp;
-			new->prev = tmp->prev;
-			tmp->prev = new;
-			if (new->prev != NULL)
+			if (idx == num)
+			{
+				new->next = tmp;
+				new->prev = tmp->prev;
+				tmp->prev = new;
 				new->prev->next = new;
-			return (NULL);
+				return (new);
+			}
+			num++;
+			tmp = tmp->next;
 		}
-		num++;
-		tmp = tmp->next;
 	}
 	return (NULL);
 }
