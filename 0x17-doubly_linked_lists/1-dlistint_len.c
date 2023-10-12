@@ -1,7 +1,9 @@
-#include "list.h"
+#include "lists.h"
 
 /**
- *
+ * dlistint_len - count the number of node
+ * @h: the head of list
+ * Return: number of node
  */
 size_t dlistint_len(const dlistint_t *h)
 {
