@@ -18,7 +18,7 @@ int main(void)
     hash_table_set(ht, "hetairas", "cool");
 
 
-    hash_table_set(ht, "mentioner", "not cool");
+    hash_table_set(ht, "mentioner", "");
 
     index = key_index((unsigned char *)s, ht->size);
     
